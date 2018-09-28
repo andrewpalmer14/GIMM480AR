@@ -53,8 +53,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\ARCoreRequiredMenuItem.cs" />
-     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\BuildHelper.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\ARCoreIOSSupportHelper.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\ARCoreIOSSupportPreprocessBuild.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\ARCoreProjectSettingsWindow.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\ARCoreSupportedPreprocessBuild.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\AssetHelper.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabaseContextMenu.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabaseInspector.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\AugmentedImageDatabasePreprocessBuild.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\BackgroundJobExecutor.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\CloudAnchorPreprocessBuild.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\ExampleBuildHelper.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\ExamplePreprocessBuild.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\PreprocessBuildBase.cs" />
+     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Editor\RequiredOptionalPreprocessBuild.cs" />
      <Compile Include="Assets\Mapbox\Core\cheap-ruler-cs\Tests\Editor\MapboxUnitTests_CheapRulerCs.cs" />
      <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\MapboxUnitTests_AngleSmoothing.cs" />
      <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\MapboxUnitTests_BboxToGeoCoordinateBoundsConverter.cs" />
@@ -160,6 +172,8 @@
      <Compile Include="Assets\ThirdPartyAssets\WoLfulus\LineEnding\Editor\LogEntries.cs" />
      <Compile Include="Assets\ThirdPartyAssets\WoLfulus\LineEnding\Editor\LogEntry.cs" />
      <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Editor\UnityARBuildPostprocessor.cs" />
+     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.88.0.txt" />
+     <None Include="Assets\GoogleARCore\Editor\ARCoreiOSDependencies.template" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
@@ -432,6 +446,18 @@
  </Reference>
  <Reference Include="Mapbox.IO.Compression">
  <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.88.0">
+ <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.88.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.88.0">
+ <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.88.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.88.0">
+ <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.88.0.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

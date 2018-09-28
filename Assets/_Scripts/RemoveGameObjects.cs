@@ -5,7 +5,7 @@ using UnityEngine;
 public class RemoveGameObjects : MonoBehaviour {
 
 	public Transform mapTransform;
-	private float delay = 1.0f;
+	private float delay = 0.5f;
 	private float time = 0.0f;
 	private bool triggered = false;
 
