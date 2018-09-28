@@ -4,17 +4,45 @@ using UnityEngine;
 
 public class RemoveGameObjects : MonoBehaviour {
 
-	public GameObject mapGameObject;
+	public Transform mapTransform;
+	private float delay = 1.0f;
+	private float time = 0.0f;
+	private bool triggered = false;
 
 	// Use this for initialization
 	void Start () {
-		// gameobjects that need to be removed: map - child - 17/23242/47860 - child - last(building - 1)
-		//										map - child - 17/23242/47861 - child - last(building - 1)
-		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (!triggered) {
+			time += Time.deltaTime;
+			if (time >= delay) {
+				triggered = true;
+				Debug.Log(mapTransform);
+				foreach (Transform transform in mapTransform) {
+					Debug.Log(transform);
+					if (transform.ToString() == "17/23242/47860 (UnityEngine.Transform)") {
+						int index = 0;
+						foreach (Transform child in transform) {
+							print(index);
+							if (index == 12) {
+								Destroy(child.gameObject);
+							}
+							index++;
+						}
+					} else if (transform.ToString() == "17/23242/47861 (UnityEngine.Transform)") {
+						int index = 0;
+						foreach (Transform child in transform) {
+							print(index);
+							if (index == 8) {
+								Destroy(child.gameObject);
+							}
+							index++;
+						}
+					}
+				}
+			}
+		}
 	}
 }
