@@ -426,6 +426,24 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.88.0">
+ <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.88.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.88.0">
+ <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.88.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.88.0">
+ <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.88.0.dll</HintPath>
+ </Reference>
+ <Reference Include="Mapbox.Json">
+ <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Mapbox.IO.Compression">
+ <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Users/andrewpalmer/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -440,24 +458,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/andrewpalmer/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Mapbox.Json">
- <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
- </Reference>
- <Reference Include="Mapbox.IO.Compression">
- <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
- </Reference>
- <Reference Include="Google.VersionHandler">
- <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
- </Reference>
- <Reference Include="Google.JarResolver_v1.2.88.0">
- <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.88.0.dll</HintPath>
- </Reference>
- <Reference Include="Google.VersionHandlerImpl_v1.2.88.0">
- <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.88.0.dll</HintPath>
- </Reference>
- <Reference Include="Google.IOSResolver_v1.2.88.0">
- <HintPath>/Users/andrewpalmer/Desktop/Semester 1/GIMM 480 Senior Capstone One/unity/GIMM480AR/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.88.0.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
